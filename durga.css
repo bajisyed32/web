@@ -1,0 +1,68 @@
+
+         body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f9f9f9;
+        }
+        .container {
+            background: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 300px;
+            text-align: center;
+        }
+        .option {
+            border: 1px solid #ddd;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 5px;
+            cursor: pointer;
+            position: relative;
+        }
+        .most-popular {
+            border-color: #ff4d6d;
+            background: #fff0f3;
+        }
+        .most-popular::after {
+            content: "MOST POPULAR";
+            position: absolute;
+            top: -10px;
+            right: 10px;
+            background: #ff4d6d;
+            color: #fff;
+            font-size: 10px;
+            padding: 3px 5px;
+            border-radius: 3px;
+        }
+        .price {
+            font-size: 18px;
+            font-weight: bold;
+        }
+        .discount {
+            font-size: 12px;
+            color: #ff4d6d;
+            background: #ffe3e8;
+            padding: 2px 5px;
+            border-radius: 3px;
+        }
+        .add-to-cart {
+            background: #ff4d6d;
+            color: #fff;
+            border: none;
+            padding: 10px;
+            width: 100%;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        .hidden {
+            display: none;
+        }
+
+
+
+    
